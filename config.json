@@ -1,5 +1,5 @@
 {
-  "updatePeriod" : 86400,
+  "updatePeriod" : 1000,
   "ads" : {
     "location" : {
 	"inbox" : {
