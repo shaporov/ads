@@ -1,0 +1,24 @@
+{
+  "updatePeriod" : 86400,
+  "ads" : {
+    "location" : {
+	"inbox" : {
+		"0" : {
+			"blockID" : "R-IM-132498-4"
+		},
+		"2" : {
+			"blockID" : "R-IM-132498-6"
+		}
+	},
+	"folderlist" : {
+		"1" : {
+			"blockID" : "R-IM-132498-5"
+		},
+		"2" : {
+			"blockID" : "R-IM-132498-7"
+		}
+	}
+    },
+    "inboxPosition" : 7
+  }
+}
