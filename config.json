@@ -1,24 +1,31 @@
 {
-  "updatePeriod" : 0,
-  "ads" : {
-    "location" : {
-	"inbox" : {
-		"0" : {
-			"blockID" : "R-IM-132498-4"
+	"updatePeriod" : 86400,
+	"ads" : {
+		"location" : {
+			"inbox" : {
+			"0" : {
+				"blockID" : "R-IM-132498-4"
+			},
+			"2" : {
+				"blockID" : "R-IM-132498-6"
+			}
 		},
-		"2" : {
-			"blockID" : "mobmail-content-5"
+		"folderlist" : {
+			"1" : {
+				"blockID" : "R-IM-132498-5"
+			},
+			"2" : {
+				"blockID" : "R-IM-132498-7"
+			}
 		}
+		},
+		"inboxPosition" : 7
 	},
-	"folderlist" : {
-		"1" : {
-			"blockID" : "R-IM-132498-5"
-		},
-		"2" : {
-			"blockID" : "mobmail-content-5"
+	"brandThemes" : [
+		{
+			"name": "newyear2016",
+			"begin": "07-12-2015",
+			"end": "14-01-2016"
 		}
-	}
-    },
-    "inboxPosition" : 7
-  }
+	]
 }
