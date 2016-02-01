@@ -1,31 +1,148 @@
 {
-	"updatePeriod" : 86400,
-	"ads" : {
-		"location" : {
-			"inbox" : {
-			"0" : {
-				"blockID" : "R-IM-132498-4"
+	"updatePeriod": 86400,
+	"ads": {
+		"location": {
+			"inbox": {
+				"0": {
+					"blockID": "R-IM-132498-4"
+				},
+				"2": {
+					"blockID": "R-IM-132498-6"
+				}
 			},
-			"2" : {
-				"blockID" : "R-IM-132498-6"
+			"folderlist": {
+				"1": {
+					"blockID": "R-IM-132498-5"
+				},
+				"2": {
+					"blockID": "R-IM-132498-7"
+				}
 			}
 		},
-		"folderlist" : {
-			"1" : {
-				"blockID" : "R-IM-132498-5"
-			},
-			"2" : {
-				"blockID" : "R-IM-132498-7"
-			}
-		}
-		},
-		"inboxPosition" : 7
+		"inboxPosition": 7
 	},
-	"brandThemes" : [
+	"brandThemes": [
 		{
 			"name": "newyear2016",
-			"begin": "07-12-2015",
+			"begin": "20-12-2015",
 			"end": "14-01-2016"
 		}
-	]
+	],
+	"support": {
+		"problems": [
+			{
+				"title": {
+					"ru": "Не загружаются письма",
+					"en": "Messages do not load",
+					"uk": "Не завантажуються листи",
+					"tr": "E-postalar yüklenemiyor"
+				},
+				"showConnectionType": true,
+				"showAnswerRequired": true,
+				"showAttachmentButton": true
+			},
+			{
+				"title": {
+					"ru": "Нет уведомлений",
+					"en": "No notifications",
+					"uk": "Немає сповіщень",
+					"tr": "Bildirim yok"
+				},
+				"showConnectionType": true,
+				"showAnswerRequired": true,
+				"showAttachmentButton": true
+			},
+			{
+				"title": {
+					"ru": "Работает медленно",
+					"en": "Works slowly",
+					"uk": "Працює повільно",
+					"tr": "Yavaş çalışıyor"
+				},
+				"showConnectionType": true,
+				"showAnswerRequired": true,
+				"showAttachmentButton": true
+			},
+			{
+				"title": {
+					"ru": "Не отправляет письма",
+					"en": "Messages won't send",
+					"uk": "Не надсилає листи",
+					"tr": "E-postalar gönderilmiyor"
+				},
+				"showConnectionType": true,
+				"showAnswerRequired": true,
+				"showAttachmentButton": true
+			},
+			{
+				"title": {
+					"ru": "Приложение вылетает",
+					"en": "Crashes",
+					"uk": "Припиняє роботу",
+					"tr": "Aniden kapanıyor"
+				},
+				"showConnectionType": false,
+				"showAnswerRequired": false,
+				"showAttachmentButton": false
+			},
+			{
+				"title": {
+					"ru": "В списке нет моей проблемы",
+					"en": "My problem is not in the list",
+					"uk": "У списку немає моєї проблеми",
+					"tr": "Yaşadığım sorun listede yok"
+				},
+				"showConnectionType": true,
+				"showAnswerRequired": true,
+				"showAttachmentButton": true
+			}
+		],
+		"suggestions": [
+			{
+				"title": {
+					"ru": "Аккаунт других сервисов",
+					"en": "Account on a different service",
+					"uk": "Акаунт інших сервісів",
+					"tr": "Diğer servislerin hesabı"
+				},
+				"showDetailedRequest": false
+			},
+			{
+				"title": {
+					"ru": "Сохранение форматирования при пересылке",
+					"en": "Maintain formatting when forwarding",
+					"uk": "Збереження форматування у разі пересилання",
+					"tr": "Yönlendirmede biçimlemenin kaydedilmesi"
+				},
+				"showDetailedRequest": false
+			},
+			{
+				"title": {
+					"ru": "Изменение аватарки",
+					"en": "Change avatar",
+					"uk": "Зміна аватарки",
+					"tr": "Avatar görselinin değişimi"
+				},
+				"showDetailedRequest": false
+			},
+			{
+				"title": {
+					"ru": "Выбор звука уведомления",
+					"en": "Choose notification sound",
+					"uk": "Вибір звуку сповіщення",
+					"tr": "Bildirim sesinin seçimi"
+				},
+				"showDetailedRequest": false
+			},
+			{
+				"title": {
+					"ru": "В списке нет моего предложения",
+					"en": "My suggestion is not in the list",
+					"uk": "У списку немає моєї пропозиції",
+					"tr": "Önerim listede yok"
+				},
+				"showDetailedRequest": true
+			}
+		]
+	}
 }
